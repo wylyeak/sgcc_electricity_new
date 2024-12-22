@@ -2,6 +2,10 @@
 config.yaml
 .env
 
+.pdm-python
+pdm.lock
+pyproject.toml
+
 translations
 # Byte-compiled / optimized / DLL files
 __pycache__/
