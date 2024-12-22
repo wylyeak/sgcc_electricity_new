@@ -43,6 +43,8 @@ class SensorUpdator:
         request_body = {
             "state": sensorState,
             "unique_id": sensorName,
+            "object_id": sensorName,
+            "entity_id": sensorName,
             "attributes": {
                 "last_reset": last_daily_date,
                 "unit_of_measurement": "kWh",
@@ -61,6 +63,8 @@ class SensorUpdator:
         request_body = {
             "state": sensorState,
             "unique_id": sensorName,
+            "object_id": sensorName,
+            "entity_id": sensorName,
             "attributes": {
                 "last_reset": last_reset,
                 "unit_of_measurement": "CNY",
@@ -84,6 +88,8 @@ class SensorUpdator:
         request_body = {
             "state": sensorState,
             "unique_id": sensorName,
+            "object_id": sensorName,
+            "entity_id": sensorName,
             "attributes": {
                 "last_reset": last_reset,
                 "unit_of_measurement": "kWh" if usage else "CNY",
@@ -106,6 +112,8 @@ class SensorUpdator:
         request_body = {
             "state": sensorState,
             "unique_id": sensorName,
+            "object_id": sensorName,
+            "entity_id": sensorName,
             "attributes": {
                 "last_reset": last_reset,
                 "unit_of_measurement": "kWh" if usage else "CNY",
